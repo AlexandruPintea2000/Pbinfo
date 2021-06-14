@@ -1,0 +1,8 @@
+Să se scrie o funcţie care primeşte ca argumente două numere naturale a şi b şi returnează numărul de elemente din intervalul [a,b] care au cifra de control egală cu a.
+
+int sum_cifra_control (int a, int b)
+{
+    int lungime;
+    lungime=b-a;
+    return 1+lungime/9;
+}
